@@ -1,0 +1,50 @@
+#header{
+    position: relative;
+}
+#brand_nav_cont{
+    display: inline-flex;
+    align-items: flex-end;
+    min-height: 60px;
+    position: relative;
+}
+#main_nav{
+
+    padding-left: 50px;
+}
+
+#branding{
+font-size: 25px;
+}
+
+#nav_item_cont{
+    display: flex;
+    flex-direction: column;
+
+}
+.nav_item{
+display: inline-block;
+margin: 0 15px;
+font-size: 18px;
+
+}
+
+.nav_item::after{
+    content: '';
+    width: 0;
+    background-color: black;
+    height: 2px;
+    display: block;
+    position: relative;
+    top: 4px;
+    transition: width 0.5s ease;
+}
+.nav_item:hover::after{
+    width: 100%;
+}
+
+#insta{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   
+}
