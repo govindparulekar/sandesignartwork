@@ -1,0 +1,19 @@
+#intro_section{
+    padding: 8.125rem 0 0.938rem 1.25rem;
+    width: 60%;
+}
+
+#heading{
+    font-size: 3.75rem;
+    padding-bottom: 1.25rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    color: rgb(51, 50, 50);
+}
+
+#desc{
+    font-size: 1.125rem;
+    line-height: 1.575rem;
+    font-weight: 400;
+    color: rgb(91, 90, 90);
+}
