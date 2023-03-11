@@ -1,8 +1,28 @@
-.main {
-
+#assignments_cont{
+    background-color: #d5d5d5;
+    padding: 40px 0;
 }
 
+#title{
+    color: #4F4E4E ;
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0.18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
 
+#desc{
+    color:#545454;
+    font-size: 45px;
+    line-height: 63px;
+    letter-spacing: 0.9px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#assignments_cont .inner_cont{
+    width: 60%;
+}
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   

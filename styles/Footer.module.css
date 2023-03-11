@@ -1,0 +1,17 @@
+#footer{
+padding: 40px 0;
+font-size: 14px;
+}
+
+
+#footer span{
+    color : #9B9B9B ;
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#float_rgt{
+    float: right;
+    margin-right: 0 !important;
+}

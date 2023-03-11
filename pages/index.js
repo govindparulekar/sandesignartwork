@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Header from '../components/header'
 import Main from '../components/main'
+import Footer from '../components/footer'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -27,7 +28,26 @@ export default function Home() {
         <div class="container">
               <Header/>
               <Main/>
+        </div>
+
+        <div id={styles.assignments_cont}>
+          <div class="container">
+            <div class={styles.inner_cont}>
+                <p id={styles.title}>Open for assignments</p>
+                <p id={styles.desc}>Interested in commissioning me an art project? I am currently available for assignments worldwide.</p>
+                <a href="#" class="page_btn">
+                    Get in touch
+                </a>
+            </div>
+              
+            
           </div>
+        </div>
+
+        <div class="container">
+            <Footer/>
+
+        </div>
       </main>
     </>
   )

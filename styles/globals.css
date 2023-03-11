@@ -11,6 +11,10 @@ ul{
   padding: 0;
 
 }
+p{
+  margin: 0;
+  padding: 0;
+}
 a{
   text-decoration: none;
   color: #000;
@@ -22,4 +26,17 @@ a{
 }
 html{
   /* font-size: 62.5%; */
+}
+.page_btn{
+  padding: 25px 35px;
+  background-color: #4b4b4b;
+  width: 100px;
+  color: white;
+  font-weight: 550;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.page_btn:hover{
+  background-color: #5e5b5b ;
 }
